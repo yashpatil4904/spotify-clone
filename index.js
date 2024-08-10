@@ -9,7 +9,7 @@ let currentplaybutton=document.getElementById("0");
 currentplaybutton.classList.remove("fa-play-circle");
 currentplaybutton.classList.add("fa-pause-circle");
 let MasterSongName= document.getElementById("MasterSongName");
-console.log(currentplaybutton);
+
 //console.log(songItems);
 let songs =[
     {songname : "Tu Mile Dil Khile",filepath : "songs/1.mp3",coverpath:"./covers/1.jpg"},
